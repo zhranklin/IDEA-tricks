@@ -173,10 +173,10 @@ favorate有点鸡肋, 跳过不讲, 这里重点讲讲bookmark
 ### 基本代码导航操作
 - `[Back]`cmd+'['/`[Foward]`cmd+']' 代码前进/后退
 - `[Select Previous Tab]`cmd+shift+'['/`[Select Next Tab]`cmd+shift+']' 上一个/下一个tab
-- 代码左侧子类父类导航
-  ![](IDEA.resources/F3387958-3ECA-4A86-AEC0-9917E14A9514.png)
-  ![](IDEA.resources/90562CF5-1070-4BB3-9C98-8B0C7F313B29.png)
-  ![](IDEA.resources/E696212B-02E4-463A-9CB3-075B9CA0BF6D.png)
+- 代码左侧子类父类导航<br>
+  ![](IDEA.resources/F3387958-3ECA-4A86-AEC0-9917E14A9514.png)<br>
+  ![](IDEA.resources/90562CF5-1070-4BB3-9C98-8B0C7F313B29.png)<br>
+  ![](IDEA.resources/E696212B-02E4-463A-9CB3-075B9CA0BF6D.png)<br>
   ![](IDEA.resources/A40413E4-C384-4516-A85B-7C2A0F3AE49E.png)
 
 ## coding
@@ -316,6 +316,7 @@ rename就不解释了, change signature:
 ## VCS
 ### vcs面板
 ![](IDEA.resources/F0E95E73-CFC5-47EE-9F36-5F6BE1FF2549.png)
+
 基本上看一下就能知道是干啥的, 框选的按钮比较实用, 选中之后, 在合并分支的提交之后, 优先显示合并分支的提交
 
 选中前
@@ -356,13 +357,13 @@ rename就不解释了, change signature:
 
 ### 场景: 紧急fix
 如遇到紧急bug, 但是如果此时手头在其他分支, 而且有大量未提交代码, 就需要暂存当前工作:
-- stash
-  ![](IDEA.resources/086BC834-6C8D-4513-AFDD-5428A1A51D73.png)
+- stash<br>
+  ![](IDEA.resources/086BC834-6C8D-4513-AFDD-5428A1A51D73.png)<br>
   ![](IDEA.resources/79A3B532-21F4-457B-A18D-CA654E6D955A.png)
-- checkout公共分支
-  ![](IDEA.resources/25F995F9-6FA1-4988-8BDC-F2D12F8B1CA9.png)
+- checkout公共分支<br>
+  ![](IDEA.resources/25F995F9-6FA1-4988-8BDC-F2D12F8B1CA9.png)<br>
   ![](IDEA.resources/55137B31-9117-4E47-97E8-AB8C4F9911B7.png)
-- udpate
+- udpate<br>
   ![](IDEA.resources/0D758309-E862-4193-B372-C70E11FC8E2F.png)
   
 
@@ -370,24 +371,24 @@ rename就不解释了, change signature:
 
 接下来就是还原之前的工作:
 - checkout之前的分支
-- unstash
+- unstash<br>
   ![](IDEA.resources/792B0209-6005-4EF9-BBC5-2B9689500937.png)
 
 可勾选pop stash, 成功unstash之后这个stash会被删除
 
 ### 代码跟踪
 - show history不用详细说了吧
-- annotate: 行号处右键
-  ![](IDEA.resources/BA14987E-8800-49E2-B57D-BA73A3001C39.png)
+- annotate: 行号处右键<br>
+  ![](IDEA.resources/BA14987E-8800-49E2-B57D-BA73A3001C39.png)<br>
   ![](IDEA.resources/BCC4DE78-E4AA-471A-940C-0B93E7905865.png)
 - 脏(未提交)代码
-  - 修改
+  - 修改<br>
     ![](IDEA.resources/033CE6AB-453D-43EE-9473-CA98768D23B2.png)
-  - 删除
+  - 删除<br>
     ![](IDEA.resources/F23A412C-F72B-43A1-B88D-C32E001C35CC.png)
-  - 新增
+  - 新增<br>
     ![](IDEA.resources/86565C8A-CC9A-4183-A030-68B8DD23975F.png)
-  - 单击查看diff及还原代码
+  - 单击查看diff及还原代码<br>
     ![](IDEA.resources/7704491D-2E7D-4C5E-B268-ACD3C81F5A60.png)
 
 ## debug
@@ -402,6 +403,7 @@ rename就不解释了, change signature:
 
 ### 调试窗口
 ![](IDEA.resources/80751A3D-325E-448B-9B1A-8DEB29AEBC31.png)
+
 图中所示的其实是spring boot的run dashboard, 左侧竖排按钮分别是:
 - |
   - run模式重启 
