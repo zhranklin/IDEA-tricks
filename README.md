@@ -1,6 +1,9 @@
+# IntelliJ IDEA 使用技巧汇总
+本文为零散的功能点分享, 所以并不会面面俱到, 图中涉及敏感信息较多, 所以有打码, 可能会影响观感, 见谅!
+
 ## 最重要的几个快捷键
 ### 必须知道的快捷键 cmd/ctrl+shift+a
-这个叫[Action...], 掌握了这个快捷键, 就等于掌握了所有快捷键。例如重构, 输入refactor this:
+这个叫`[Action...]`, 掌握了这个快捷键, 就等于掌握了所有快捷键。例如重构, 输入refactor this:
 
 ![](IDEA.resources/BCEE106A-32C7-44F2-B648-7A26E5B3F0C2.png)
 
